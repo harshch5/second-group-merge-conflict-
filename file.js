@@ -1,15 +1,8 @@
-function divide(a,b){
-    return a/b;
+function calculate(num1) {
+    return Math.sin(num1 * Math.PI / 180);
 }
 
-let a=20;
-let b=5;
-console.log(divide(a,b));
+let num1 = 30;
 
-function calculate(num1,num2){
-    let num1=25;
-    let num2=100;
-
-    let percent=calculate(num1,num2);
-    console.log(result);
-}
+let result = calculate(num1);
+console.log(result);
