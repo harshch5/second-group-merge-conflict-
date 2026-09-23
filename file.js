@@ -1,9 +1,11 @@
-function divide(a,b){
-    return a/b;
-}
 function mul(a,b){
     return a*b;
 }
+
+function divide(a,b){
+    return a/b;
+}
+
 
 
 let a=20;
