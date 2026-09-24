@@ -1,5 +1,6 @@
 function calculate(num1) {
     return Math.sin(num1 * Math.PI / 180);
+    return Math.sin(num1 * Math.PI / 500);
 }
 
 let num1 = 30;
