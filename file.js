@@ -1,6 +1,8 @@
-function divide(a,b){
-    return a/b;
+function calculate(num1) {
+    return Math.sin(num1 * Math.PI / 500);
 }
-let a=20;
-let b=5;
-console.log(divide(a,b));
+
+let num1 = 30;
+
+let result = calculate(num1);
+console.log(result);
